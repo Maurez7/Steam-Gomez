@@ -1,0 +1,23 @@
+header{
+    nav{
+        .menu{
+            list-style: none;
+            display: flex;
+            justify-content:space-around;
+        }
+    }
+}
+@media (min-width:320px){
+    header{
+        nav{
+            width: 100%;
+        }
+    }
+}
+@media (min-width:480px)  {
+    header{
+        nav{
+            width: 1180px;
+        }
+    }
+}
